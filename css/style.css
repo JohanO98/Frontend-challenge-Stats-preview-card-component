@@ -116,6 +116,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 2em;
+    padding-right: 2em;
 }
  
 .main-container {
@@ -127,9 +128,16 @@ img,
     border-radius: 0 10px 10px 0;
 }
 
+.title {
+    margin-top: 3rem;
+}
+
+.text-body {
+    padding-right: 4rem;
+}
 .title,
 .text-body {
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 }
