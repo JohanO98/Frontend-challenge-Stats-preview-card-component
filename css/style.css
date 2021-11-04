@@ -98,6 +98,14 @@ p {
 
 @media screen and (min-width: 1200px) {
 
+body {
+    text-align: left;
+}
+
+.attribution {
+    text-align: center;
+}
+
 .container {
     flex-direction: row-reverse;
     width: 80vw;
@@ -117,6 +125,11 @@ p {
 img,
 .container-image {
     border-radius: 0 10px 10px 0;
+}
+
+.title,
+.text-body {
+    padding-left: 2rem;
 }
 
 }
