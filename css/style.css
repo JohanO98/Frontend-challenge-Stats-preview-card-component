@@ -1,0 +1,122 @@
+body {
+    margin:0;
+    text-align: center;
+    background-color:  hsl(233, 47%, 7%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    display: block;
+    mix-blend-mode: multiply;
+    
+}
+
+img,
+.container-image {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Typography */
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+
+h1 {
+    color: white;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+#insight-color{
+    color:hsl(277, 64%, 61%);
+}
+
+.stat-number {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.sub-text {
+    font-size: 0.8rem;
+}
+
+
+
+/* Layout */
+
+
+
+.main-container {
+    padding: 1em;
+}
+
+.container-body  {
+    margin: 2em 0;
+}
+
+.title {
+    margin: .8em 0;  
+}
+
+.text-body {
+    margin: 1em 0 0 0;
+    
+}
+
+.stat-container {
+    margin: 1em 0;
+}
+
+
+.container-image {
+    background-color: hsl(277, 64%, 61%)
+}
+
+.container {
+    margin: 3em auto;
+    width: 375px;
+    min-width: 300px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+
+.container {
+    flex-direction: row-reverse;
+    width: 80vw;
+    max-width: 1150px;
+}
+
+.sub-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+ 
+.main-container {
+    width: 50%;
+}
+
+img,
+.container-image {
+    border-radius: 0 10px 10px 0;
+}
+
+}
