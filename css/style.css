@@ -78,7 +78,8 @@ p {
 
 
 .container-image {
-    background-color: hsl(277, 64%, 61%)
+    background-color: hsl(277, 64%, 61%);
+    background-size: cover;
 }
 
 .container {
@@ -110,6 +111,8 @@ body {
     flex-direction: row-reverse;
     width: 80vw;
     max-width: 1150px;
+    min-width: 1040px;
+    margin-top: 10em;
 }
 
 .sub-container {
